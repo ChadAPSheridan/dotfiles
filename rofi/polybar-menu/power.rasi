@@ -1,0 +1,8 @@
+@import "themes/polybar"
+
+* {
+	accent: #e60053;
+	active: #336f18;
+	xoff: 86px;
+	size: 180px;
+}

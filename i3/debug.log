@@ -1,0 +1,60 @@
+2024-03-31 17:47:16,595 - INFO: Executing 'wpctl status' command...
+2024-03-31 17:47:16,606 - DEBUG: Command output: PipeWire 'pipewire-0' [1.0.4, chads@DarkSide, cookie:3859473040]
+ └─ Clients:
+        31. WirePlumber                         [1.0.4, chads@DarkSide, pid:862]
+        32. pipewire                            [1.0.4, chads@DarkSide, pid:863]
+        45. WirePlumber [export]                [1.0.4, chads@DarkSide, pid:862]
+        70. polybar                             [1.0.4, chads@DarkSide, pid:9184]
+        71. polybar                             [1.0.4, chads@DarkSide, pid:9186]
+        72. polybar                             [1.0.4, chads@DarkSide, pid:9188]
+        73. NetworkManager Applet               [1.0.4, chads@DarkSide, pid:933]
+        74. menu.pl                             [1.0.4, chads@DarkSide, pid:928]
+        75. xdg-desktop-portal                  [1.0.4, chads@DarkSide, pid:1151]
+        76. libcanberra                         [1.0.4, chads@DarkSide, pid:1408]
+        79. libcanberra                         [1.0.4, chads@DarkSide, pid:3380]
+        83. Firefox                             [1.0.4, chads@DarkSide, pid:2748]
+        84. wpctl                               [1.0.4, chads@DarkSide, pid:10075]
+        85. electron                            [1.0.4, chads@DarkSide, pid:7652]
+        87. Firefox                             [1.0.4, chads@DarkSide, pid:2748]
+
+Audio
+ ├─ Devices:
+ │      46. GA106 High Definition Audio Controller [alsa]
+ │      47. G935 Gaming Headset                 [alsa]
+ │      48. Starship/Matisse HD Audio Controller [alsa]
+ │  
+ ├─ Sinks:
+ │      55. GA106 High Definition Audio Controller Digital Stereo (HDMI) [vol: 0.80]
+ │  *   57. G935 Gaming Headset Analog Stereo   [vol: 1.15]
+ │      58. Starship/Matisse HD Audio Controller Digital Stereo (IEC958) [vol: 0.40]
+ │  
+ ├─ Sources:
+ │  *   56. G935 Gaming Headset Mono            [vol: 0.94]
+ │      59. Starship/Matisse HD Audio Controller Analog Stereo [vol: 1.00]
+ │  
+ ├─ Filters:
+ │  
+ └─ Streams:
+
+Video
+ ├─ Devices:
+ │  
+ ├─ Sinks:
+ │  
+ ├─ Sources:
+ │  
+ ├─ Filters:
+ │  
+ └─ Streams:
+
+Settings
+ └─ Default Configured Devices:
+         0. Audio/Sink    alsa_output.usb-Logitech_G935_Gaming_Headset-00.analog-stereo
+         1. Audio/Source  alsa_input.usb-Logitech_G935_Gaming_Headset-00.9.mono-fallback
+
+2024-03-31 17:47:16,606 - DEBUG: Sinks index: 24
+2024-03-31 17:47:16,606 - DEBUG: Extracted sinks: ['55. GA106 High Definition Audio Controller Digital Stereo (HDMI) [vol: 0.80]', '*   57. G935 Gaming Headset Analog Stereo   [vol: 1.15]', '58. Starship/Matisse HD Audio Controller Digital Stereo (IEC958) [vol: 0.40]']
+2024-03-31 17:47:16,607 - DEBUG: Processed sinks: ['55. GA106 High Definition Audio Controller Digital Stereo (HDMI)', '*   57. G935 Gaming Headset Analog Stereo', '58. Starship/Matisse HD Audio Controller Digital Stereo (IEC958)']
+2024-03-31 17:47:16,607 - DEBUG: Formatted sinks: ['55. GA106 High Definition Audio Controller Digital Stereo (HDMI)', '57. G935 Gaming Headset Analog Stereo - Default', '58. Starship/Matisse HD Audio Controller Digital Stereo (IEC958)']
+2024-03-31 17:47:16,607 - DEBUG: Parsed sinks dictionary: [{'sink_id': 55, 'sink_name': 'GA106 High Definition Audio Controller Digital Stereo (HDMI)'}, {'sink_id': 57, 'sink_name': 'G935 Gaming Headset Analog Stereo - Default'}, {'sink_id': 58, 'sink_name': 'Starship/Matisse HD Audio Controller Digital Stereo (IEC958)'}]
+2024-03-31 17:47:16,646 - INFO: User cancelled the operation.
